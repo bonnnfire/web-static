@@ -598,6 +598,12 @@ HOMEPAGE ELEMENTS .home- prefix
   flex-direction: column;
   gap: calc(var(--base-grid) * 3);
 }
+.home-list-item {
+  transition: transform 0.25s;
+}
+.home-list-item:hover {
+  transform: scale(1.01);
+}
 .home-list-item-visual {
   position: relative;
 }
